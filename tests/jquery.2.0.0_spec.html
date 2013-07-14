@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="chai.js"></script>
+  <script>chai.should();</script>
+  <script src="vendor/jquery-2.0.0.min.js"></script>
+  <script src="../src/has_event.js"></script>
+  <script src="has_event_spec.js"></script>
+
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>

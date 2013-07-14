@@ -1,0 +1,14 @@
+{
+  "name": "hasEvent",
+  "authors": ["zorbash"],
+  "scripts": { "test": "make test" },
+  "dependencies": {
+    "connect": "2.1.3",
+    "karma": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "devDependencies": {
+    "intern": "1.1.0"
+  }
+}
