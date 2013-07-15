@@ -31,6 +31,12 @@ assertions.
 
 ```
 
+## Installation
+
+`bower install hasEvent`
+
+Don't forget to include the lib itself, located in dist/has_event.js
+
 ## Tests
 
 Currently there are tests against jQuery versions
