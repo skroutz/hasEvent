@@ -21,13 +21,13 @@ assertions.
   $('.foo').hasEvent('custom', someHandler).should.be.true
 
   // Delegated event
-  $('body').hasEvent('click', '.foo .bar', @handler).should.be.true
+  $('body').hasEvent('click', '.foo .bar', somehandler).should.be.true
 
   // 'Live' event
-  $(document).hasEvent('click', '.foo .bar', @handler).should.be.true
+  $(document).hasEvent('click', '.foo .bar', someHandler).should.be.true
 
   // Event on window
-  $(window).hasEvent('scroll', @handler).should.be.false
+  $(window).hasEvent('scroll', someHandler).should.be.false
 
 ```
 
