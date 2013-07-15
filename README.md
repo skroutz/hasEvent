@@ -8,6 +8,12 @@ JavaScript test support utility for jQuery events
 A way to detect the presence of jQuery events is currently a [wontfix](http://bugs.jquery.com/ticket/11945), thus this helper.
 
 
+## Installation
+
+`bower install hasEvent`
+
+Don't forget to include the lib itself, located in dist/has_event.js
+
 ## Usage
 
 The examples below use [chai](http://chaijs.com/api/bdd/) should style
@@ -31,15 +37,20 @@ assertions.
 
 ```
 
-## Installation
-
-`bower install hasEvent`
-
-Don't forget to include the lib itself, located in dist/has_event.js
-
 ## Tests
 
 Currently there are tests against jQuery versions
 1.7 up to 2.0.3
 
 Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
+
+
+## Author
+
+Dimitris Zorbas (zorbash)
+
+* [http://twitter/_zorbash](http://twitter/_zorbash)
+
+## Licence
+Copyright (c) 2013 Dimitris Zorbash
+Licensed under the MIT license.
