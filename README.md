@@ -49,7 +49,8 @@ Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
 
 Dimitris Zorbas (zorbash)
 
-* [http://twitter/_zorbash](http://twitter/_zorbash)
+* [https://twitter/_zorbash](https://twitter/_zorbash)
+* [https://github.com/Zorbash](https://github.com/Zorbash)
 
 ## Licence
 Copyright (c) 2013 Dimitris Zorbash
