@@ -1,14 +1,27 @@
 {
   "name": "hasEvent",
   "authors": ["zorbash"],
+  "author": {
+    "name": "zorbash",
+    "url": "http://github.com/Zorbash"
+  },
+  "repository": {
+  	"type": "git",
+		"url": "https://github.com/Zorbash/hasEvent.git"
+	},
   "scripts": { "test": "make test" },
-  "dependencies": {
+  "licenses": [
+  	{
+			"type": "MIT",
+			"url": "https://github.com/Zorbash/hasEvent/blob/master/MIT-LICENSE.txt"
+		}
+	],
+  "devDependencies": {
+    "coffee-script": "*",
     "connect": "2.1.3",
     "karma": "*",
     "mocha": "*",
     "chai": "*"
   },
-  "devDependencies": {
-    "intern": "1.1.0"
-  }
+  "keywords": ["events", "jQuery"]
 }
