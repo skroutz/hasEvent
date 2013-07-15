@@ -92,7 +92,7 @@ describe 'HasEvent', ->
             HasEvent.check($('.foo'), 'click', @handler).should.be.true
 
           it 'makes the plugin return true', ->
-            $('.foo').hasEvent('click', 'click', @handler).should.be.true
+            $('.foo').hasEvent('click', @handler).should.be.true
 
         context 'custom event', ->
           beforeEach ->
