@@ -47,10 +47,8 @@ Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
 
 ## Author
 
-Dimitris Zorbas (zorbash)
+[Dimitris Zorbas](https://github.com/Zorbash) ([@zorbash](https://twitter/_zorbash))
 
-* [https://twitter.com/_zorbash](https://twitter/_zorbash)
-* [https://github.com/Zorbash](https://github.com/Zorbash)
 
 ## Licence
 Copyright (c) 2013 Dimitris Zorbash
