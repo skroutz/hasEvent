@@ -118,8 +118,7 @@ as that feature is currenty a wontfix
     if (!any.length) {
       return false;
     }
-    any = any.indexOf(false);
-    if (any === -1) {
+    if (any.indexOf(false) === -1) {
       return true;
     } else {
       return false;

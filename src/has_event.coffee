@@ -24,27 +24,16 @@ class HasEvent
     # Perform a different check when the target is the window|document object
     if is_global
       data = $._data($el)
-      # return @_performCheckWindow(type, selector, handler)
     else
       return false if $el.length is 0
       data = $._data($el[0])
-      # return @_performCheckLatest($el[0], type, selector, handler)
 
     if data?.events?[type]?
       for v in data.events[type]
         if v.handler is handler
           return true
-    return false
 
-    # # iterate over the keys of the jQuery.cache object
-    # for key, cache_obj of jQuery.cache
-    #   if cache_obj.handle?.elem is $el[0] and cache_obj.events?[type]?
-    #     # Iterating over the event handlers bound for that event type
-    #     for event in cache_obj.events[type]
-    #       if event.handler is handler
-    #         if !selector or selector is event.selector
-    #           return true
-    # false
+    return false
 
   ###
   Tests if the supplied event is bound on the supplied
@@ -104,7 +93,4 @@ jQuery.fn.hasEvent = (type, selector, handler) ->
   ).get()
 
   return false if !any.length
-
-  any = any.indexOf false
-
-  if any is -1 then true else false
+  if any.indexOf(false) is -1 then true else false
