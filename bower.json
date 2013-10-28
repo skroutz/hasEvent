@@ -2,6 +2,7 @@
   "name": "hasEvent",
   "version": "0.1.1",
   "main": "dist/has_event.js",
+  "keywords": ["testing", "events", "jQuery"],
   "ignore": [
     "**/.*",
     "node_modules",
