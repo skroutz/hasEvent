@@ -9,6 +9,9 @@ test:
 	kill -9 `cat tests/pid.txt`
 	rm tests/pid.txt
 
+compile:
+	coffee --output dist/ --compile src/
+
 clean:
 	kill -9 `cat tests/pid.txt`
 	rm tests/pid.txt

@@ -9,7 +9,10 @@
   	"type": "git",
 		"url": "https://github.com/Zorbash/hasEvent.git"
 	},
-  "scripts": { "test": "make test" },
+  "scripts": {
+    "test": "make test",
+    "compile": "make compile"
+  },
   "licenses": [
   	{
 			"type": "MIT",
