@@ -40,7 +40,7 @@ class HasEvent
   element optionally delegated to the supplied selector
   and is handled bu the supplied handler
 
-  usage: .check(event, type [, selector], handler)
+  usage: .check($el, type [, selector], handler)
 
   @param $el [Object] The jQuery element on which
   the check will be performed
