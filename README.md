@@ -53,3 +53,7 @@ Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
 ## Licence
 Copyright (c) 2013 Dimitris Zorbash
 Licensed under the MIT license.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Zorbash/hasevent/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
