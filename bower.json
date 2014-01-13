@@ -1,6 +1,6 @@
 {
   "name": "hasEvent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/has_event.js",
   "keywords": ["testing", "events", "jQuery"],
   "ignore": [

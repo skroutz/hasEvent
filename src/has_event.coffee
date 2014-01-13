@@ -55,7 +55,7 @@ class HasEvent
     throw Error 'Expected at least 3 parameters' if arguments.length < 3
 
     el_string = $el.toString()
-    if /Window/.test(el_string) or /HTMLDocument/.test(el_string)
+    if $el == window or $el == document
       is_global = true
     else
       is_global = false
