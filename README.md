@@ -3,7 +3,7 @@ hasEvent
 
 JavaScript test support utility for jQuery events
 
-[![Build Status](https://travis-ci.org/Zorbash/hasEvent.png?branch=master)](https://travis-ci.org/Zorbash/hasEvent)
+[![Build Status](https://travis-ci.org/skroutz/hasEvent.png?branch=master)](https://travis-ci.org/skroutz/hasEvent)
 
 A way to detect the presence of jQuery events is currently a [wontfix](http://bugs.jquery.com/ticket/11945), thus this helper.
 
@@ -42,8 +42,7 @@ assertions.
 Currently there are tests against jQuery versions
 1.7 up to 2.0.3
 
-Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
-
+Browse the builds [here](https://travis-ci.org/skroutz/hasEvent/builds/)
 
 ## Author
 
@@ -53,7 +52,3 @@ Browse the builds [here](https://travis-ci.org/Zorbash/hasEvent/builds/)
 ## Licence
 Copyright (c) 2013 Dimitris Zorbash
 Licensed under the MIT license.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Zorbash/hasevent/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
