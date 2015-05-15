@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zorbash/hasEvent.git"
+    "url": "https://github.com/skroutz/hasEvent.git"
   },
   "scripts": {
     "test": "make test",
@@ -16,7 +16,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Zorbash/hasEvent/blob/master/MIT-LICENSE.txt"
+      "url": "https://github.com/skroutz/hasEvent/blob/master/MIT-LICENSE.txt"
     }
   ],
   "devDependencies": {
