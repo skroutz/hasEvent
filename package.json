@@ -1,13 +1,12 @@
 {
-  "name": "hasEvent",
-  "authors": ["zorbash"],
-  "author": {
-    "name": "zorbash",
-    "url": "http://github.com/Zorbash"
-  },
+  "name": "@skroutz/has-event",
+  "authors": [
+    "zorbash"
+  ],
+  "author": "zorbash (http://github.com/Zorbash)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skroutz/hasEvent.git"
+    "url": "git+https://github.com/skroutz/hasEvent.git"
   },
   "scripts": {
     "test": "make test",
@@ -26,5 +25,19 @@
     "mocha": "*",
     "chai": "*"
   },
-  "keywords": ["events", "jQuery"]
+  "keywords": [
+    "events",
+    "jQuery"
+  ],
+  "description": "JavaScript test support utility for jQuery events",
+  "bugs": {
+    "url": "https://github.com/skroutz/hasEvent/issues"
+  },
+  "homepage": "https://github.com/skroutz/hasEvent#readme",
+  "version": "1.0.0",
+  "main": "dist/has_event.js",
+  "directories": {
+    "test": "tests"
+  },
+  "license": "MIT"
 }
