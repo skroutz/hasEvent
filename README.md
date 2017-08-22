@@ -10,7 +10,11 @@ A way to detect the presence of jQuery events is currently a [wontfix](http://bu
 
 ## Installation
 
-`bower install hasEvent`
+`npm install @skroutz/has-event`
+
+or
+
+`bower install hasEvent` (Deprecated!!!)
 
 Don't forget to include the lib itself, located in dist/has_event.js
 
