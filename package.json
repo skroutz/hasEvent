@@ -34,7 +34,7 @@
     "url": "https://github.com/skroutz/hasEvent/issues"
   },
   "homepage": "https://github.com/skroutz/hasEvent#readme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/has_event.js",
   "directories": {
     "test": "tests"
